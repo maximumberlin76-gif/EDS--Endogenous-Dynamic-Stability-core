@@ -1,86 +1,110 @@
-Endogenous Dynamic Stability (EDS)
+# Endogenous Dynamic Stability (EDS) 
 
-A unified framework for dynamic stability in nonlinear dissipative systems.
+A unified operational framework of endogenous dynamic stability, dynamic retention of structural integrity, regenerative accessibility, and synthesis in open dynamical systems (non-equilibrium open systems).
 
 ---
 
-Core Idea
+# Core Formula
 
 Δ(t) = S(t) − P(t) − D(t)
 
-- Δ(t) > 0 → growth
-- Δ(t) = 0 → quasi-stationary
-- Δ(t) < 0 → degradation
+Where:
 
-System stability is determined by the balance between synthesis, load, and dissipation.
+- Δ(t) — operational structural balance of the system at time t;
+- S(t) — structural synthesis and formation of organized structure at time t;
+- P(t) — structural dissipation pressure, extraction, overload, fragmentation pressure, or destabilizing operational load at time t;
+- D(t) — irreversible structural losses and entropy-producing degradation at time t;
+- t — time / operational time variable.
 
-This condition defines whether a system evolves, stagnates, or degrades over time.
+Interpretation:
 
----
-
-Interpretation
-
-- S(t) — synthesis (constructive processes, structure formation)
-- P(t) — load (extraction, stress, imposed demand)
-- D(t) — dissipation (losses, inefficiency, entropy production)
+- Δ(t) > 0 → structural growth and retained operational continuity;
+- Δ(t) = 0 → quasi-stationary operational balance;
+- Δ(t) < 0 → structural degradation and fragmentation.
 
 ---
 
-Key Principle
+# Integral Stability Condition
 
-Stability is not a static state, but a dynamically maintained regime.
+A system remains operationally viable only if:
 
-A system remains viable only while:
+∫(S(t) − P(t) − D(t))dt > 0
 
-∫(S − P − D) dt > 0
+over a given operational time horizon.
 
-over a given time horizon.
+Where:
 
----
-
-Scope
-
-The framework applies across scales:
-
-- physical systems
-- biological systems
-- human cognition
-- socio-economic structures
-- technological systems (including AI)
+- ∫ — accumulation over time;
+- S(t) − P(t) − D(t) — instantaneous structural balance;
+- dt — infinitesimal time interval;
+- t — operational time variable.
 
 ---
 
-Purpose
+# Structural Regeneration Criterion
+
+C(t) > P(t)
+
+Where:
+
+- C(t) — structural regeneration, retained structural continuity, and restorative structural capacity at time t;
+- P(t) — structural dissipation pressure at time t;
+- t — time / operational time variable;
+- > — operational dominance condition: regenerative structural capacity exceeds structural dissipation pressure.
+
+Operational interpretation:
+
+The system remains viable while its structural regeneration and retained structural continuity exceed structural dissipation pressure over time.
+
+---
+
+# Mechanisms Supporting C(t)
+
+Coherence, synchronization, resonance, and recursive continuity are not identical to structural integrity itself.
+
+They are operational mechanisms supporting:
+
+- structural regeneration;
+- retention of structural integrity;
+- restorative structural capacity;
+- operational continuity.
+
+---
+
+# Scope
+
+The framework applies to:
+
+- physical systems;
+- biological systems;
+- cognition and adaptive intelligence;
+- socio-economic structures;
+- technological systems;
+- artificial intelligence systems.
+
+---
+
+# Purpose
 
 This model is not designed to predict exact events.
 
 It is designed to:
 
-- identify stability regimes
-- detect degradation early
-- guide system parameter control
+- identify stability regimes;
+- detect structural degradation early;
+- evaluate regenerative accessibility;
+- guide system parameter control.
 
 ---
 
-Minimal Rule
+# Minimal Rule
 
-Do not predict outcomes.
-Control system parameters.
+Do not predict isolated outcomes.
 
----
-
-Status
-
-CORE v1.0 — initialized
-
-## Model Versions
-
-- [CORE v1.0](./paper.md)
-- [EDS v1.1 (parameterized model)](./model_v1.1.md)
-
+Control structural regeneration, structural dissipation pressure, irreversible losses, and operational time dynamics.
 
 ---
 
-License
+# Status
 
-Apache License 2.0
+CORE v1.1 
