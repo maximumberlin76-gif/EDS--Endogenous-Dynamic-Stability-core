@@ -1,93 +1,207 @@
-Definitions
+# Definitions
 
 ---
 
-System
+# System
 
-A system is defined as a bounded set of interacting elements exchanging energy, matter, or information with its environment.
+A system is defined as a bounded set of interacting elements exchanging energy, matter, or information with its environment over operational time.
 
----
-
-State Variable
-
-Let X(t) denote the measurable state of the system:
-
-X(t) ∈ ℝⁿ
+Within the framework, systems are treated as open dynamical systems (non-equilibrium open systems).
 
 ---
 
-Synthesis — S(t)
+# State Variable
 
-S(t) represents constructive processes that increase system structure.
+Let:
+
+    X(t)
+
+denote the measurable operational state of the system.
+
+Where:
+
+- X(t) — system state at time t;
+- t — operational time variable.
+
+Operationally:
+
+    X(t) ∈ ℝⁿ
+
+---
+
+# Structural Synthesis — S(t)
+
+    S(t)
+
+represents constructive operational processes contributing to formation, reinforcement, or restructuring of organized system structure at time t.
 
 Examples:
 
-- energy stored in organized form
-- knowledge accumulation
-- infrastructure development
+- energy retained in organized form;
+- constructive structural formation;
+- adaptive organization;
+- knowledge accumulation;
+- infrastructure development;
+- operational restructuring.
 
-S(t) ≥ 0
+Constraint:
+
+    S(t) ≥ 0
 
 ---
 
-Load — P(t)
+# Structural Dissipation Pressure — P(t)
 
-P(t) represents extraction, stress, or imposed demand on the system.
+    P(t)
+
+represents structural dissipation pressure, fragmentation pressure, destabilizing extraction, overload, or operational stress acting on the system at time t.
+
+Operationally:
+
+- P(t) describes processes reducing retained structural continuity and increasing destabilization propagation.
 
 Examples:
 
-- external pressure
-- resource extraction
-- cognitive overload
+- destabilizing extraction;
+- fragmentation pressure;
+- operational overload;
+- recursive destabilization;
+- external destructive pressure;
+- cognitive overload.
 
-P(t) ≥ 0
+Constraint:
+
+    P(t) ≥ 0
 
 ---
 
-Dissipation — D(t)
+# Irreversible Structural Losses — D(t)
 
-D(t) represents irreversible losses.
+    D(t)
+
+represents irreversible structural losses and entropy-producing degradation at time t.
+
+Operationally:
+
+- D(t) describes structural losses that cannot be fully restored through endogenous regenerative processes.
 
 Examples:
 
-- heat loss
-- inefficiency
-- entropy production
+- entropy production;
+- irreversible dissipation;
+- unrecoverable degradation;
+- irreversible operational collapse;
+- structural decay.
 
-D(t) ≥ 0
+Constraint:
 
----
-
-Stability Parameter
-
-Δ(t) = S(t) − P(t) − D(t)
+    D(t) ≥ 0
 
 ---
 
-Coherence — C(t)
+# Operational Structural Balance
 
-C(t) represents internal alignment and coordination of system elements.
+    Δ(t) = S(t) − P(t) − D(t)
 
-C(t) ∈ [0,1]
+Where:
 
----
+- Δ(t) — operational structural balance at time t;
+- S(t) — structural synthesis;
+- P(t) — structural dissipation pressure;
+- D(t) — irreversible structural losses;
+- t — operational time variable.
 
-Time Horizon
+Interpretation:
 
-System behavior must be evaluated over a time interval:
-
-Δ_T = ∫(S − P − D) dt
-
----
-
-Key Interpretation
-
-- S → structure formation
-- P → structural load
-- D → structural loss
+- Δ(t) > 0 → structural growth and retained continuity;
+- Δ(t) = 0 → quasi-stationary operational balance;
+- Δ(t) < 0 → structural degradation and fragmentation.
 
 ---
 
-Constraint
+# Structural Regeneration — C(t)
 
-All variables must be defined in measurable or operational terms within a given system context.
+    C(t)
+
+represents:
+
+- structural regeneration;
+- retained structural continuity;
+- restorative structural capacity.
+
+Operationally:
+
+- C(t) describes the ability of the system to restore and retain structural integrity over operational time.
+
+Examples:
+
+- restorative continuity;
+- adaptive recovery;
+- retained operational coherence;
+- regenerative stabilization;
+- structural recovery capacity.
+
+---
+
+# Mechanisms Supporting C(t)
+
+Coherence, synchronization, resonance, and recursive continuity are treated as operational mechanisms supporting:
+
+- structural regeneration;
+- retention of structural integrity;
+- restorative structural capacity;
+- operational continuity.
+
+They are not identical to the structure itself.
+
+---
+
+# Structural Regeneration Criterion
+
+    C(t) > P(t)
+
+Where:
+
+- C(t) — structural regeneration and retained structural continuity;
+- P(t) — structural dissipation pressure;
+- > — operational dominance relation;
+- t — operational time variable.
+
+Operational interpretation:
+
+- regenerative structural continuity exceeds destabilizing structural dissipation pressure over operational time.
+
+---
+
+# Time Horizon
+
+System behavior must be evaluated over operational time intervals.
+
+Operational integral stability condition:
+
+    ∫(S(t) − P(t) − D(t))dt > 0
+
+Where:
+
+- ∫ — accumulation over operational time;
+- dt — infinitesimal operational time interval;
+- t — operational time variable.
+
+---
+
+# Key Interpretation
+
+Within the framework:
+
+- S(t) → structural synthesis;
+- C(t) → structural regeneration and retained continuity;
+- P(t) → structural dissipation pressure;
+- D(t) → irreversible structural losses.
+
+Operational continuity remains viable only while regenerative structural accessibility sufficiently exceeds destabilizing structural propagation.
+
+---
+
+# Constraint
+
+All parameters and operational variables must be defined in measurable, operational, or system-relative terms within a given dynamic context.
