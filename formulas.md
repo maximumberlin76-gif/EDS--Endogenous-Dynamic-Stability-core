@@ -2,11 +2,11 @@
 
 ---
 
-Formula Parameter Definitions
+# Formula Parameter Definitions
 
 ---
 
-# Operational Time — t
+ Operational Time — t
 
     t
 
@@ -18,7 +18,7 @@ Operationally:
 
 ---
 
-# System State — X(t)
+ System State — X(t)
 
     X(t)
 
@@ -34,7 +34,7 @@ Constraint:
 
 ---
 
-# Structural Synthesis — S(t)
+Structural Synthesis — S(t)
 
     S(t)
 
@@ -57,7 +57,7 @@ Constraint:
 
 ---
 
-# Structural Dissipation Pressure — P(t)
+Structural Dissipation Pressure — P(t)
 
     P(t)
 
@@ -80,7 +80,7 @@ Constraint:
 
 ---
 
-# Irreversible Structural Losses — D(t)
+Irreversible Structural Losses — D(t)
 
     D(t)
 
@@ -103,7 +103,7 @@ Constraint:
 
 ---
 
-# Operational Structural Balance — Δ(t)
+Operational Structural Balance — Δ(t)
 
     Δ(t)
 
@@ -123,7 +123,7 @@ Operational interpretation:
 
 ---
 
-# Structural Regeneration — C(t)
+Structural Regeneration — C(t)
 
     C(t)
 
@@ -146,7 +146,7 @@ Examples:
 
 ---
 
-# Operational Coupling Factor — K(t)
+Operational Coupling Factor — K(t)
 
     K(t)
 
@@ -162,7 +162,7 @@ Constraint:
 
 ---
 
-# Effective Structural Synthesis — S_eff
+Effective Structural Synthesis — S_eff
 
     S_eff
 
@@ -174,7 +174,7 @@ Definition:
 
 ---
 
-# Effective Structural Losses — D_eff
+Effective Structural Losses — D_eff
 
     D_eff
 
@@ -186,7 +186,7 @@ Definition:
 
 ---
 
-# Operational Observable — O
+Operational Observable — O
 
     O
 
@@ -198,7 +198,7 @@ Operationally:
 
 ---
 
-# Averaged Operational Observable — ⟨O⟩
+Averaged Operational Observable — ⟨O⟩
 
     ⟨O⟩
 
@@ -210,7 +210,7 @@ Operationally:
 
 ---
 
-# Operational Jacobian — J
+Operational Jacobian — J
 
     J
 
@@ -226,7 +226,7 @@ Operationally:
 
 ---
 
-# Eigenvalues — λ_i
+Eigenvalues — λ_i
 
     λ_i
 
@@ -238,7 +238,7 @@ Operational interpretation:
 
 ---
 
-# Operational Lyapunov Functional — V(X)
+Operational Lyapunov Functional — V(X)
 
     V(X)
 
@@ -254,7 +254,7 @@ Constraint:
 
 ---
 
-# Operational Parameter — μ
+Operational Parameter — μ
 
     μ
 
@@ -262,7 +262,7 @@ represents an operational control parameter influencing dynamic accessibility an
 
 ---
 
-# Stochastic Fluctuation Intensity — σ
+Stochastic Fluctuation Intensity — σ
 
     σ
 
@@ -270,7 +270,7 @@ represents stochastic fluctuation intensity within operational stochastic dynami
 
 ---
 
-# Wiener Process Increment — dW_t
+Wiener Process Increment — dW_t
 
     dW_t
 
@@ -282,7 +282,7 @@ Operationally:
 
 ---
 
-# Regenerative Recovery Resource — R(t)
+Regenerative Recovery Resource — R(t)
 
     R(t)
 
@@ -294,7 +294,7 @@ Operationally:
 
 ---
 
-# Critical Recovery Threshold — R_crit
+Critical Recovery Threshold — R_crit
 
     R_crit
 
