@@ -20,7 +20,8 @@ denote the measurable operational state of the system.
 
 Where:
 
-- X(t) — system state at time t;
+- X(t) — operational system state at time t;
+
 - t — operational time variable.
 
 Operationally:
@@ -38,10 +39,15 @@ represents constructive operational processes contributing to formation, reinfor
 Examples:
 
 - energy retained in organized form;
+
 - constructive structural formation;
+
 - adaptive organization;
+
 - knowledge accumulation;
+
 - infrastructure development;
+
 - operational restructuring.
 
 Constraint:
@@ -63,10 +69,15 @@ Operationally:
 Examples:
 
 - destabilizing extraction;
+
 - fragmentation pressure;
+
 - operational overload;
+
 - recursive destabilization;
+
 - external destructive pressure;
+
 - cognitive overload.
 
 Constraint:
@@ -88,9 +99,13 @@ Operationally:
 Examples:
 
 - entropy production;
+
 - irreversible dissipation;
+
 - unrecoverable degradation;
+
 - irreversible operational collapse;
+
 - structural decay.
 
 Constraint:
@@ -106,15 +121,21 @@ Constraint:
 Where:
 
 - Δ(t) — operational structural balance at time t;
-- S(t) — structural synthesis;
-- P(t) — structural dissipation pressure;
-- D(t) — irreversible structural losses;
+
+- S(t) — structural synthesis at time t;
+
+- P(t) — structural dissipation pressure at time t;
+
+- D(t) — irreversible structural losses at time t;
+
 - t — operational time variable.
 
 Interpretation:
 
 - Δ(t) > 0 → structural growth and retained continuity;
+
 - Δ(t) = 0 → quasi-stationary operational balance;
+
 - Δ(t) < 0 → structural degradation and fragmentation.
 
 ---
@@ -126,7 +147,9 @@ Interpretation:
 represents:
 
 - structural regeneration;
+
 - retained structural continuity;
+
 - restorative structural capacity.
 
 Operationally:
@@ -136,9 +159,13 @@ Operationally:
 Examples:
 
 - restorative continuity;
+
 - adaptive recovery;
+
 - retained operational coherence;
+
 - regenerative stabilization;
+
 - structural recovery capacity.
 
 ---
@@ -148,8 +175,11 @@ Examples:
 Coherence, synchronization, resonance, and recursive continuity are treated as operational mechanisms supporting:
 
 - structural regeneration;
+
 - retention of structural integrity;
+
 - restorative structural capacity;
+
 - operational continuity.
 
 They are not identical to the structure itself.
@@ -163,13 +193,18 @@ They are not identical to the structure itself.
 Where:
 
 - C(t) — structural regeneration and retained structural continuity;
+
 - P(t) — structural dissipation pressure;
-- > — operational dominance relation;
+
 - t — operational time variable.
+
+Operational relation:
+
+- regenerative structural capacity exceeds structural dissipation pressure over operational time.
 
 Operational interpretation:
 
-- regenerative structural continuity exceeds destabilizing structural dissipation pressure over operational time.
+- the system remains operationally viable while retained structural continuity exceeds destabilizing structural propagation.
 
 ---
 
@@ -184,7 +219,11 @@ Operational integral stability condition:
 Where:
 
 - ∫ — accumulation over operational time;
+
+- S(t) − P(t) − D(t) — instantaneous operational structural balance;
+
 - dt — infinitesimal operational time interval;
+
 - t — operational time variable.
 
 ---
@@ -194,8 +233,11 @@ Where:
 Within the framework:
 
 - S(t) → structural synthesis;
+
 - C(t) → structural regeneration and retained continuity;
+
 - P(t) → structural dissipation pressure;
+
 - D(t) → irreversible structural losses.
 
 Operational continuity remains viable only while regenerative structural accessibility sufficiently exceeds destabilizing structural propagation.
