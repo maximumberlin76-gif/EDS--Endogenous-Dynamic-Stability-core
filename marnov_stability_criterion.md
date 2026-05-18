@@ -1,28 +1,85 @@
-# Marnov Stability Criterion
+# Marnov Criterion of Endogenous Dynamic Stability
 
-## Definition
+---
 
-Let:
+# Operational Parameter Definitions
 
-C(t) ≥ 0 — coherence  
-P(t) ≥ 0 — dissipative load  
+Where:
 
-## Necessary Condition
+- C(t) ≥ 0 — structural regeneration, retained structural continuity, and restorative structural capacity at time t;
 
-A system remains in a structurally stable regime if:
+- P(t) ≥ 0 — structural dissipation pressure, destabilizing operational load, and fragmentation pressure at time t;
 
-C(t) ≥ P(t) + ε,  ε > 0
+- ε > 0 — minimum positive regenerative structural surplus required for retained operational continuity;
 
-## Interpretation
+- t — operational time variable.
 
-- C > P → stable regime  
-- C = P → critical regime  
-- C < P → unstable regime  
+---
 
-## Extended Form
+# Necessary Operational Stability Condition
 
-dC/dt = αC − βP − γ(Δφ)²
+A system remains within a retained structurally stable operational regime if:
 
-## Notes
+    C(t) ≥ P(t) + ε
 
-This condition is necessary but not sufficient for full phase coherence.
+where:
+
+    ε > 0
+
+Operational interpretation:
+
+- regenerative structural continuity sufficiently exceeds destabilizing structural dissipation pressure.
+
+---
+
+# Regime Interpretation
+
+If:
+
+    C(t) > P(t)
+
+→ retained structurally stable operational regime.
+
+If:
+
+    C(t) ≈ P(t)
+
+→ critical operational regime with reduced stabilization accessibility.
+
+If:
+
+    C(t) < P(t)
+
+→ destabilization propagation and structural fragmentation regime.
+
+---
+
+# Extended Operational Form
+
+    dC/dt = αC − βP − γ(Δφ)²
+
+Where:
+
+- α — regenerative amplification coefficient;
+
+- β — dissipation-pressure coupling coefficient;
+
+- γ — phase-misalignment destabilization coefficient;
+
+- Δφ — operational phase mismatch / structural synchronization deviation.
+
+Operational interpretation:
+
+- structural regeneration increases through retained regenerative continuity;
+
+- structural dissipation pressure suppresses regenerative accessibility;
+
+- phase mismatch increases destabilization propagation.
+
+---
+
+# Notes
+
+This condition represents a necessary operational criterion for retained structural continuity.
+
+It is not, by itself, a sufficient condition for complete operational synchronization or full phase coherence accessibility.
