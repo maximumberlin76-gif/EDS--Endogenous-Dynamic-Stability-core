@@ -1,5 +1,5 @@
 # Endogenous Dynamic Stability  
-## Working Monograph v0.2
+Working Monograph v0.2
 
 Author: Maksym Marnov (Alchimist)  
 Year: 2026
@@ -15,6 +15,161 @@ The framework treats stability not as static equilibrium, but as the ability of 
 The central condition is that constructive structural synthesis and regenerative continuity must exceed structural dissipation pressure and irreversible structural losses.
 
 EDS is intended as an operational framework for analyzing physical, biological, cognitive, socio-economic, technological, and artificial intelligence systems.
+
+
+# Operational Parameter Definitions
+
+Operational Time — t
+
+t — operational time variable governing structural evolution, regeneration, dissipation, and operational continuity.
+
+---
+
+System State — X(t)
+
+X(t) — operational state of the system at time t.
+
+Operationally:
+
+X(t) describes the measurable dynamic configuration of the system.
+
+Constraint:
+
+X(t) ∈ ℝⁿ
+
+---
+
+Structural Synthesis — S(t)
+
+S(t) — structural synthesis and formation of organized structure at time t.
+
+Operationally:
+
+S(t) contributes to constructive structural formation, adaptive organization, and retained operational continuity.
+
+Examples:
+
+- constructive structural growth;
+- adaptive restructuring;
+- knowledge accumulation;
+- operational organization.
+
+Constraint:
+
+S(t) ≥ 0
+
+---
+
+Structural Dissipation Pressure — P(t)
+
+P(t) — structural dissipation pressure, destabilizing extraction, overload, fragmentation pressure, or operational destabilization at time t.
+
+Operationally:
+
+P(t) reduces retained structural continuity and increases destabilization propagation.
+
+Examples:
+
+- fragmentation pressure;
+- destabilizing operational stress;
+- recursive overload;
+- structural destabilization.
+
+Constraint:
+
+P(t) ≥ 0
+
+---
+
+Irreversible Structural Losses — D(t)
+
+D(t) — irreversible structural losses and entropy-producing degradation at time t.
+
+Operationally:
+
+D(t) describes losses that cannot be fully restored through endogenous regenerative processes.
+
+Examples:
+
+- entropy production;
+- irreversible degradation;
+- unrecoverable structural losses;
+- operational collapse channels.
+
+Constraint:
+
+D(t) ≥ 0
+
+---
+
+Operational Structural Balance — Δ(t)
+
+Δ(t) — operational structural balance of the system at time t.
+
+Definition:
+
+Δ(t) = S(t) − P(t) − D(t)
+
+Operational interpretation:
+
+- Δ(t) > 0 → structural growth and retained continuity;
+- Δ(t) = 0 → quasi-stationary operational balance;
+- Δ(t) < 0 → structural degradation and fragmentation.
+
+---
+
+Structural Regeneration — C(t)
+
+C(t) — structural regeneration, retained structural continuity, and restorative structural capacity at time t.
+
+Operationally:
+
+C(t) describes the ability of the system to restore and retain structural integrity over operational time.
+
+Examples:
+
+- regenerative stabilization;
+- adaptive recovery;
+- retained operational continuity;
+- restorative structural accessibility.
+
+---
+
+Structural Regeneration Threshold — ε
+
+ε — minimum positive regenerative structural surplus required for retained operational continuity.
+
+Constraint:
+
+ε > 0
+
+---
+
+Regenerative Recovery Resource — R(t)
+
+R(t) — regenerative recovery resources available to the system at time t.
+
+Operationally:
+
+R(t) contributes to restoration of retained operational continuity.
+
+---
+
+Critical Recovery Threshold — R_crit
+
+R_crit — minimum regenerative recovery threshold required for retained operational continuity.
+
+---
+
+Operational Observable — O
+
+O — measurable operational observable quantity describing macroscopic operational behavior.
+
+---
+
+Averaged Operational Observable — ⟨O⟩
+
+⟨O⟩ — averaged operational observable used for describing quasi-stationary operational regimes.
 
 ---
 
