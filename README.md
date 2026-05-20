@@ -35,6 +35,58 @@ The EDS framework applies to open dynamical systems across physical, biological,
 
 ---
 
+## Structural Existence vs Dynamic Stability
+
+Two different conditions must be separated.
+
+### Structural Existence Condition
+
+Δ(t) = S(t) − P(t) − D(t) > 0
+
+Operational meaning:
+
+- structural synthesis exceeds destabilizing load and dissipation;
+
+- the system preserves positive net structural formation;
+
+- the structure continues to exist as an organized system.
+
+This condition defines structural existence.
+
+---
+
+### Dynamic Stability Condition
+
+C(t) > P(t)
+
+Where:
+
+- C(t) represents retained structural continuity, coordinated subsystem integrity, regenerative structural capacity, and synchronized operational dynamics;
+
+- P(t) represents destabilizing structural pressure, dissipation pressure, fragmentation pressure, and degradation load.
+
+Operational meaning:
+
+- regeneration of structural integrity outpaces destabilizing dissipation;
+
+- coordinated subsystem dynamics remain stronger than fragmentation;
+
+- retained structural continuity persists over operational time.
+
+This condition defines dynamically retained structural stability.
+
+---
+
+Operational distinction:
+
+Δ(t) > 0
+→ the structure still exists
+
+C(t) > P(t)
+→ the structure remains dynamically stable and operationally self-retaining
+
+---
+
 # Core Formula
 
 Δ(t) = S(t) − P(t) − D(t)
