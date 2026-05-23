@@ -12,6 +12,21 @@ Operationally:
 
 - `t` defines the temporal evolution of structural dynamics, endogenous structural coherence, dissipation, self-organization, parameter drift, and dynamic stability over time.
 
+## Operational Time Horizon — T
+
+`T`
+
+represents a finite operational time horizon.
+
+Definition:
+
+`T = t₁ − t₀`
+
+Where:
+
+- `t₀` — initial moment of operational time;
+- `t₁` — final moment of operational time.
+
 ## System State — X(t)
 
 `X(t)`
@@ -26,15 +41,15 @@ Constraint:
 
 `X(t) ∈ ℝⁿ`
 
-## Structural Synthesis — S(t)
+## Synthesis of Positive Structural Work — S(t)
 
 `S(t)`
 
-represents structural synthesis: the process of formation and maintenance of structural integrity and self-organization at time `t`.
+represents the instantaneous intensity of synthesis of positive structural work at time `t`.
 
 Operationally:
 
-- `S(t)` contributes to the formation, maintenance, reinforcement, or restructuring of structural integrity and self-organization.
+- `S(t)` influences the formation, maintenance, and reinforcement of structural integrity, self-organization, and general endogenous structural coherence of the system over time.
 
 Examples:
 
@@ -43,11 +58,35 @@ Examples:
 - knowledge accumulation;
 - operational organization;
 - formation of organized structure;
-- maintenance of structural integrity.
+- maintenance of structural integrity;
+- synthesis of positive structural work.
 
 Constraint:
 
 `S(t) ≥ 0`
+
+## Accumulated Positive Structural Work — W_S(T)
+
+`W_S(T)`
+
+represents accumulated positive structural work over the operational time horizon `T`.
+
+Definition:
+
+`W_S(T) = ∫[t₀ → t₁] S(t) dt`
+
+Where:
+
+- `W_S(T)` — accumulated positive structural work over interval `T`;
+- `S(t)` — instantaneous intensity of synthesis of positive structural work;
+- `t₀` — initial moment of operational time;
+- `t₁` — final moment of operational time.
+
+Operationally:
+
+- `W_S(T)` describes the accumulated result of positive structural work synthesized over operational time;
+- `W_S(T)` may support structural integrity, self-organization, and endogenous structural coherence;
+- `W_S(T)` does not replace the criterion of real dynamic stability `C(t) > P(t)`.
 
 ## Destabilizing Structural Pressure — P(t)
 
@@ -94,11 +133,11 @@ Constraint:
 
 `D(t) ≥ 0`
 
-## Operational Structural Balance — Δ(t)
+## Instantaneous Structural Balance — Δ(t)
 
 `Δ(t)`
 
-represents operational structural balance.
+represents instantaneous structural balance.
 
 Definition:
 
@@ -106,8 +145,8 @@ Definition:
 
 Where:
 
-- `Δ(t)` — operational structural balance at time `t`;
-- `S(t)` — structural synthesis at time `t`;
+- `Δ(t)` — instantaneous structural balance at time `t`;
+- `S(t)` — instantaneous intensity of synthesis of positive structural work at time `t`;
 - `P(t)` — destabilizing structural pressure at time `t`;
 - `D(t)` — irreversible structural losses at time `t`;
 - `t` — operational time variable.
@@ -122,21 +161,40 @@ Positive `Δ(t)` indicates formal structural existence.
 
 It does not by itself prove real dynamic stability over time.
 
+## Accumulated Structural Balance
+
+Accumulated structural balance over the operational time horizon `T` is defined as:
+
+`∫[t₀ → t₁] Δ(t) dt = ∫[t₀ → t₁] [S(t) − P(t) − D(t)] dt`
+
+Operationally:
+
+- positive accumulated structural balance supports formal structural existence over the evaluated operational time horizon;
+- it does not by itself guarantee real dynamic stability if `C(t) ≤ P(t)`.
+
 ## Endogenous Structural Coherence — C(t)
 
 `C(t)`
 
-represents the parameter of endogenous structural coherence that determines the level of structural integrity and dynamic stability over time.
+represents the parameter of general endogenous structural coherence that determines the level of structural integrity and dynamic stability over time.
 
 Operationally:
 
 - `C(t)` describes the measure of coherence of internal processes of structural self-organization, on which structural integrity and dynamic stability of the system over time depend.
 
+Structural regeneration is a continuous endogenous process of restoring and maintaining structural integrity and coherence over time.
+
+Regeneration supports `C(t)`, but is not identical to `C(t)`.
+
+If endogenous processes are decoherent in phase, amplitude, accumulation rate, connection quality, or functional contribution, the structure loses the capacity to regenerate structural integrity faster than dissipation destroys it.
+
+A decrease of `C(t)` means a decrease of general endogenous structural coherence, where destabilizing pressure begins to exceed the structure’s capacity for self-regeneration over time.
+
 Examples:
 
 - coherent internal self-organization;
 - retained structural integrity;
-- regenerative capacity;
+- regenerative capacity as a supporting process;
 - coherent subsystem contribution to the whole system;
 - resistance to fragmentation;
 - retention of dynamic stability over time.
@@ -149,11 +207,11 @@ Constraint:
 
 `K(t)`
 
-represents an optional operational coupling factor describing the degree to which measurable synchronization or coupling effects support effective structural synthesis or reduce effective dissipation.
+represents an optional operational coupling factor describing the degree to which measurable synchronization or coupling effects support effective synthesis of positive structural work or reduce effective dissipation.
 
 Operationally:
 
-- `K(t)` may modulate effective structural synthesis and effective irreversible losses under measurable coupling conditions.
+- `K(t)` may modulate effective synthesis of positive structural work and effective irreversible losses under measurable coupling conditions.
 
 Constraint:
 
@@ -165,11 +223,11 @@ Important distinction:
 
 Synchronization or coupling may support endogenous structural coherence, but they do not define it.
 
-## Effective Structural Synthesis — S_eff
+## Effective Synthesis of Positive Structural Work — S_eff
 
 `S_eff`
 
-represents effective structural synthesis under operational coupling conditions.
+represents effective synthesis of positive structural work under operational coupling conditions.
 
 Definition:
 
@@ -177,16 +235,16 @@ Definition:
 
 Where:
 
-- `S_eff` — effective structural synthesis;
+- `S_eff` — effective synthesis of positive structural work;
 - `K(t)` — operational coupling factor;
-- `S(t)` — structural synthesis.
+- `S(t)` — instantaneous intensity of synthesis of positive structural work.
 
 Operational interpretation:
 
-- measurable coupling may increase the effective accessibility of structural synthesis;
-- this does not by itself prove dynamic stability over time.
+- measurable coupling may increase the effective accessibility of synthesis of positive structural work;
+- this does not by itself prove real dynamic stability over time.
 
-## Effective Structural Losses — D_eff
+## Effective Irreversible Structural Losses — D_eff
 
 `D_eff`
 
@@ -295,7 +353,8 @@ represents regenerative recovery resources available to the system at time `t`.
 
 Operationally:
 
-- `R(t)` may contribute to restoration of structural integrity and support of endogenous structural coherence.
+- `R(t)` may contribute to restoration of structural integrity and support of endogenous structural coherence;
+- `R(t)` may support `C(t)`, but does not replace `C(t)`.
 
 ## Critical Recovery Threshold — R_crit
 
@@ -315,23 +374,23 @@ Operational structural dynamics are defined as:
 
 `dX/dt = F(X,t)`
 
-where:
+where `F(X,t)` describes the system-relative vector field of the operational dynamics.
 
-`F(X,t) = S(X,t) − P(X,t) − D(X,t)`
-
-Define the operational structural balance:
+The scalar instantaneous structural balance is defined separately as:
 
 `Δ(t) = S(t) − P(t) − D(t)`
 
 Where:
 
-- `S(t)` — structural synthesis;
+- `S(t)` — instantaneous intensity of synthesis of positive structural work;
 - `P(t)` — destabilizing structural pressure;
 - `D(t)` — irreversible structural losses;
 - `t` — operational time variable.
 
 Operational interpretation:
 
+- `X(t)` is the vector state of the system;
+- `Δ(t)` is the scalar instantaneous structural balance;
 - `Δ(t)` describes formal structural balance;
 - positive `Δ(t)` supports formal structural existence;
 - `Δ(t)` alone does not prove real dynamic stability over time.
@@ -342,11 +401,11 @@ Operational interpretation:
 
 Formal structural existence remains locally accessible if:
 
-`Δ(t) ≥ ε > 0`
+`Δ(t) ≥ δ > 0`
 
 Where:
 
-- `ε` — minimum positive structural surplus required for retained formal structural existence.
+- `δ` — minimum positive structural surplus required for retained formal structural existence.
 
 Operational interpretation:
 
@@ -370,6 +429,19 @@ Operational interpretation:
 - formal structural existence remains accessible;
 - real dynamic stability still requires `C(t) > P(t)`.
 
+## Accumulated Positive Structural Work
+
+Accumulated positive structural work over the same operational time horizon is defined as:
+
+`W_S(T) = ∫_0^T S(t)dt`
+
+Operational interpretation:
+
+- `W_S(T)` is the accumulated result of the synthesis of positive structural work over operational time;
+- `W_S(T)` may support structural integrity, self-organization, and endogenous structural coherence;
+- `W_S(T)` is not identical to `C(t)`;
+- accumulated positive structural work does not replace the EDS criterion `C(t) > P(t)`.
+
 # 3. Dynamic Stability Criterion
 
 Real dynamic stability over time requires:
@@ -378,16 +450,33 @@ Real dynamic stability over time requires:
 
 Where:
 
-- `C(t)` — parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time;
+- `C(t)` — parameter of general endogenous structural coherence determining the level of structural integrity and dynamic stability over time;
 - `P(t)` — destabilizing structural pressure.
 
 Operational relation:
 
-- endogenous structural coherence exceeds destabilizing structural pressure over operational time.
+- general endogenous structural coherence exceeds destabilizing structural pressure over operational time.
 
 Operational interpretation:
 
-- the system remains dynamically stable over time while endogenous structural coherence exceeds destabilizing structural pressure.
+- the system remains dynamically stable over time while general endogenous structural coherence exceeds destabilizing structural pressure;
+- if `C(t) ≤ P(t)`, the system may still preserve formal structural existence, but its real dynamic stability over time is already disrupted.
+
+## Stability Margin
+
+A retained dynamically stable regime with positive coherence surplus may be expressed as:
+
+`C(t) ≥ P(t) + ε`
+
+Where:
+
+- `ε > 0` — minimum positive surplus of endogenous structural coherence over destabilizing structural pressure required for retained dynamic stability over time.
+
+Operational interpretation:
+
+- `ε` is not the same as `δ`;
+- `δ` belongs to positive structural balance `Δ(t) ≥ δ > 0`;
+- `ε` belongs to the dynamic stability margin `C(t) ≥ P(t) + ε`.
 
 # 4. Dynamic Operational Equilibrium
 
@@ -397,7 +486,7 @@ Quasi-balanced operational regimes satisfy:
 
 Operational interpretation:
 
-- structural synthesis approximately compensates destabilizing pressure and irreversible losses;
+- instantaneous intensity of synthesis of positive structural work approximately compensates destabilizing pressure and irreversible losses;
 - this may describe quasi-stationary balance;
 - it does not prove dynamic stability if `C(t) ≤ P(t)`.
 
@@ -433,12 +522,12 @@ Then:
 
 Where:
 
-- `S_eff` — effective structural synthesis;
+- `S_eff` — effective synthesis of positive structural work;
 - `D_eff` — effective irreversible structural losses.
 
 Operational interpretation:
 
-- measurable synchronization or coupling may support effective structural synthesis;
+- measurable synchronization or coupling may support effective synthesis of positive structural work;
 - measurable synchronization or coupling may reduce effective dissipation propagation;
 - synchronization or coupling does not by itself define endogenous structural coherence;
 - `K(t)` must not be equated with `C(t)`.
@@ -461,7 +550,7 @@ In EDS:
 
 `C(t)`
 
-describes not simple synchrony, but endogenous structural coherence.
+describes not simple synchrony, but general endogenous structural coherence.
 
 Operational interpretation:
 
@@ -469,7 +558,25 @@ Operational interpretation:
 - synchronization is not equal to `C(t)`;
 - `C(t)` determines the level of structural integrity and dynamic stability over time.
 
-# 8. Formal Transition Layer: From EDS to EDC
+# 8. Regeneration and C(t)
+
+Structural regeneration is a continuous endogenous process of restoring and maintaining structural integrity and coherence over time.
+
+Regeneration supports `C(t)`, but is not identical to `C(t)`.
+
+If endogenous processes are decoherent in phase, amplitude, accumulation rate, connection quality, or functional contribution, the structure loses the capacity to regenerate structural integrity faster than dissipation destroys it.
+
+Therefore:
+
+decoherence of endogenous processes → reduction of regenerative capacity → dissipation exceeds regeneration → decrease of `C(t)` → disruption of dynamic stability over time.
+
+Operational interpretation:
+
+- regeneration is one of the internal processes supporting endogenous structural coherence;
+- `C(t)` expresses the general level of endogenous structural coherence;
+- when dissipation exceeds the structure’s capacity for self-regeneration over time, `C(t)` decreases.
+
+# 9. Formal Transition Layer: From EDS to EDC
 
 The following formulas are retained in this file as a transition layer from Endogenous Dynamic Stability (EDS) toward Endogenous Dynamic Criticality (EDC).
 
@@ -479,13 +586,13 @@ The primary EDS criterion remains:
 
 `C(t) > P(t)`
 
-where `C(t)` is the parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
+where `C(t)` is the parameter of general endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
 
 The Jacobian, Lyapunov functional, bifurcation accessibility, stochastic dynamics, and scaling relations indicate the formal transition from stability analysis toward criticality, drift, and regime transition analysis.
 
 In the full EDS/EDC repository, these layers are developed from the beginning as part of the complete framework.
 
-# 9. Scaling Law
+# 10. Scaling Law
 
 This section is retained as a transition point from EDS toward EDC.
 
@@ -507,11 +614,11 @@ Operational structural balance at scale requires:
 
 Operational interpretation:
 
-- constructive structural synthesis must scale at least as rapidly as destabilizing pressure and irreversible losses;
+- instantaneous synthesis of positive structural work must scale at least as rapidly as destabilizing pressure and irreversible losses;
 - this supports formal structural existence at scale;
 - real dynamic stability still requires `C(t) > P(t)`.
 
-# 10. Local Quasi-Linear Stability Approximation
+# 11. Local Quasi-Linear Stability Approximation
 
 Near a local operational regime:
 
@@ -541,7 +648,7 @@ Operational interpretation:
 - this describes local stability accessibility;
 - it does not replace the EDS criterion `C(t) > P(t)`.
 
-# 11. Lyapunov Operational Stability
+# 12. Lyapunov Operational Stability
 
 Choose an operational Lyapunov-like functional:
 
@@ -565,7 +672,7 @@ Operational interpretation:
 - Lyapunov analysis supports local formal stability analysis;
 - it does not replace the EDS criterion `C(t) > P(t)`.
 
-# 12. Bifurcation Accessibility
+# 13. Bifurcation Accessibility
 
 At operational parameter:
 
@@ -591,7 +698,7 @@ Operational interpretation:
 - this belongs to the transition layer from EDS toward EDC;
 - it does not replace the primary EDS criterion.
 
-# 13. Noise and Stochastic Operational Dynamics
+# 14. Noise and Stochastic Operational Dynamics
 
 Operational stochastic dynamics may be represented as:
 
@@ -604,7 +711,7 @@ Where:
 
 Operational stability becomes probabilistic.
 
-Expected operational structural balance requires:
+Expected instantaneous structural balance requires:
 
 `E[Δ(t)] > 0`
 
@@ -614,7 +721,7 @@ Operational interpretation:
 - this supports formal structural existence in expected terms;
 - real dynamic stability still requires endogenous structural coherence to exceed destabilizing structural pressure over operational time.
 
-# 14. Human Operational System
+# 15. Human Operational System
 
 Let:
 
@@ -622,7 +729,7 @@ Let:
 
 represent regenerative recovery resources.
 
-Operational continuity requires:
+Operational continuity may require:
 
 `R(t) ≥ R_crit`
 
@@ -640,11 +747,15 @@ Operational interpretation:
 - regenerative recovery does not replace endogenous structural coherence;
 - real dynamic stability still requires `C(t) > P(t)`.
 
-# 15. Final Operational Condition
+# 16. Final Operational Condition
 
 A system preserves formal structural existence over an operational time horizon if:
 
 `∫_0^T (S(t) − P(t) − D(t))dt > 0`
+
+Accumulated positive structural work over an operational time horizon is:
+
+`W_S(T) = ∫_0^T S(t)dt`
 
 A system preserves real dynamic stability over time only while:
 
@@ -654,31 +765,41 @@ where:
 
 `C(t)`
 
-is the parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
+is the parameter of general endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
 
 Operational interpretation:
 
 - positive accumulated structural balance supports formal structural existence;
+- accumulated positive structural work may support endogenous structural coherence;
 - real dynamic stability requires endogenous structural coherence to exceed destabilizing structural pressure over operational time;
 - formal structural existence is not equal to dynamic stability and structural integrity over time.
 
-# 16. Key Interpretation
+# 17. Key Interpretation
 
 Within the framework:
 
-- `S(t)` → structural synthesis: formation and maintenance of structural integrity and self-organization;
+- `S(t)` → instantaneous intensity of synthesis of positive structural work;
+- `W_S(T)` → accumulated positive structural work over operational time horizon `T`;
 - `P(t)` → destabilizing structural pressure;
 - `D(t)` → irreversible structural losses;
-- `Δ(t)` → formal structural balance;
-- `C(t)` → endogenous structural coherence determining structural integrity and dynamic stability over time.
+- `Δ(t)` → instantaneous structural balance supporting formal structural existence;
+- `C(t)` → general endogenous structural coherence determining structural integrity and dynamic stability over time.
 
 Formal structural existence is described by:
 
 `Δ(t) = S(t) − P(t) − D(t)`
 
+Accumulated positive structural work is described by:
+
+`W_S(T) = ∫_0^T S(t)dt`
+
 Real dynamic stability over time is described by:
 
 `C(t) > P(t)`
+
+Root mechanism:
+
+decoherence of endogenous processes → reduction of regenerative capacity → dissipation exceeds regeneration → decrease of `C(t)` → disruption of dynamic stability over time.
 
 # Constraint
 
