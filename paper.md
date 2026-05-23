@@ -1,31 +1,41 @@
-# Endogenous Dynamic Stability  
+# Endogenous Dynamic Stability
+
 Working Monograph v0.2
 
 Author: Maksym Marnov (Alchimist)  
 Year: 2026
 
----
-
 # Abstract
 
-Endogenous Dynamic Stability (EDS) describes stability as a dynamically retained operational regime in open dynamical systems (non-equilibrium open systems).
+Endogenous Dynamic Stability (EDS) describes stability as a dynamically retained operational regime in open nonlinear dynamical systems.
 
-The framework treats stability not as static equilibrium, but as the ability of a system to preserve structural integrity through synthesis, structural regeneration, dissipation control, and recursive continuity over operational time.
+The framework treats stability not as static equilibrium, but as the ability of a system to preserve structural integrity through structural synthesis, endogenous structural coherence, controlled destabilizing pressure, irreversible loss limitation, and recursive continuity over operational time.
 
-The central condition is that constructive structural synthesis and regenerative continuity must exceed structural dissipation pressure and irreversible structural losses.
+The central distinction is:
 
-EDS is intended as an operational framework for analyzing physical, biological, cognitive, socio-economic, technological, and artificial intelligence systems.
+formal structural existence is not equal to real dynamic stability over time.
 
+Formal structural existence is described by:
+
+Δ(t) = S(t) − P(t) − D(t)
+
+Real dynamic stability over time is described by:
+
+C(t) > P(t)
+
+where C(t) is the parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
+
+Structural regeneration is one of the internal processes that may support C(t), but it is not identical to C(t).
+
+EDS is intended as an operational framework for analyzing physical, biological, cognitive, socio-economic, technological, artificial intelligence, and adaptive operational systems.
 
 # Operational Parameter Definitions
 
-Operational Time — t
+## Operational Time — t
 
-t — operational time variable governing structural evolution, regeneration, dissipation, and operational continuity.
+t — operational time variable governing structural evolution, endogenous structural coherence, dissipation, self-organization, parameter drift, and dynamic stability over time.
 
----
-
-System State — X(t)
+## System State — X(t)
 
 X(t) — operational state of the system at time t.
 
@@ -37,36 +47,35 @@ Constraint:
 
 X(t) ∈ ℝⁿ
 
----
+## Structural Synthesis — S(t)
 
-Structural Synthesis — S(t)
-
-S(t) — structural synthesis and formation of organized structure at time t.
+S(t) — structural synthesis: the process of formation, maintenance, and accumulation of positive structural work that influences the general endogenous coherence of self-organization processes and the dynamic stability of the structure over time.
 
 Operationally:
 
-S(t) contributes to constructive structural formation, adaptive organization, and retained operational continuity.
+S(t) contributes to positive structural work, structural integrity, self-organization, and retained formal structural existence.
 
 Examples:
 
 - constructive structural growth;
 - adaptive restructuring;
 - knowledge accumulation;
-- operational organization.
+- operational organization;
+- formation of organized structure;
+- maintenance of structural integrity;
+- accumulation of positive structural work.
 
 Constraint:
 
 S(t) ≥ 0
 
----
+## Destabilizing Structural Pressure — P(t)
 
-Structural Dissipation Pressure — P(t)
-
-P(t) — structural dissipation pressure, destabilizing extraction, overload, fragmentation pressure, or operational destabilization at time t.
+P(t) — destabilizing structural pressure, destabilizing extraction, overload, fragmentation pressure, or operational destabilization at time t.
 
 Operationally:
 
-P(t) reduces retained structural continuity and increases destabilization propagation.
+P(t) reduces structural integrity, increases fragmentation, and weakens dynamic stability over time.
 
 Examples:
 
@@ -79,9 +88,7 @@ Constraint:
 
 P(t) ≥ 0
 
----
-
-Irreversible Structural Losses — D(t)
+## Irreversible Structural Losses — D(t)
 
 D(t) — irreversible structural losses and entropy-producing degradation at time t.
 
@@ -100,9 +107,7 @@ Constraint:
 
 D(t) ≥ 0
 
----
-
-Operational Structural Balance — Δ(t)
+## Operational Structural Balance — Δ(t)
 
 Δ(t) — operational structural balance of the system at time t.
 
@@ -112,80 +117,79 @@ Definition:
 
 Operational interpretation:
 
-- Δ(t) > 0 → structural growth and retained continuity;
+- Δ(t) > 0 → positive structural formation balance;
 - Δ(t) = 0 → quasi-stationary operational balance;
 - Δ(t) < 0 → structural degradation and fragmentation.
 
----
+Positive Δ(t) supports formal structural existence.
 
-Structural Regeneration — C(t)
+It does not by itself prove real dynamic stability over time.
 
-C(t) — structural regeneration, retained structural continuity, and restorative structural capacity at time t.
+## Endogenous Structural Coherence — C(t)
+
+C(t) — parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
 
 Operationally:
 
-C(t) describes the ability of the system to restore and retain structural integrity over operational time.
+C(t) describes the measure of coherence of internal processes of structural self-organization, on which structural integrity and dynamic stability of the system over time depend.
 
-Examples:
+Structural regeneration is one of the internal processes that may support C(t), but it is not identical to C(t).
 
-- regenerative stabilization;
+Examples of processes supporting C(t):
+
+- structural regeneration;
 - adaptive recovery;
 - retained operational continuity;
-- restorative structural accessibility.
+- restorative structural accessibility;
+- coherent internal self-organization;
+- coherent subsystem contribution to the whole system;
+- resistance to fragmentation.
 
----
+Constraint:
 
-Structural Regeneration Threshold — ε
+C(t) ≥ 0
 
-ε — minimum positive regenerative structural surplus required for retained operational continuity.
+## Endogenous Coherence Surplus — ε
+
+ε — minimum positive surplus of endogenous structural coherence over destabilizing structural pressure required for retained dynamic stability over time.
 
 Constraint:
 
 ε > 0
 
----
-
-Regenerative Recovery Resource — R(t)
+## Regenerative Recovery Resource — R(t)
 
 R(t) — regenerative recovery resources available to the system at time t.
 
 Operationally:
 
-R(t) contributes to restoration of retained operational continuity.
+R(t) may support restoration of structural integrity and endogenous structural coherence.
 
----
+R(t) does not replace C(t).
 
-Critical Recovery Threshold — R_crit
+## Critical Recovery Threshold — R_crit
 
 R_crit — minimum regenerative recovery threshold required for retained operational continuity.
 
----
-
-Operational Observable — O
+## Operational Observable — O
 
 O — measurable operational observable quantity describing macroscopic operational behavior.
 
----
+## Averaged Operational Observable — ⟨O⟩
 
-Averaged Operational Observable — ⟨O⟩
-
-⟨O⟩ — averaged operational observable used for describing quasi-stationary operational regimes.
-
----
+⟨O⟩ — averaged operational observable used for describing quasi-stationary observable regimes.
 
 # 1. Core Variables
 
-S(t) — structural synthesis and formation of organized structure at time t.
+S(t) — structural synthesis: the process of formation, maintenance, and accumulation of positive structural work.
 
-P(t) — structural dissipation pressure, destabilizing extraction, overload, fragmentation pressure, or operational destabilization at time t.
+P(t) — destabilizing structural pressure, destabilizing extraction, overload, fragmentation pressure, or operational destabilization at time t.
 
 D(t) — irreversible structural losses and entropy-producing degradation at time t.
 
-C(t) — structural regeneration, retained structural continuity, and restorative structural capacity at time t.
+C(t) — parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
 
 t — operational time variable.
-
----
 
 # 2. Fundamental Equation
 
@@ -201,50 +205,58 @@ Define operational structural balance:
 
 Where:
 
-- Δ(t) > 0 → structural growth and retained operational continuity;
+- Δ(t) > 0 → positive structural formation balance;
 - Δ(t) = 0 → quasi-stationary operational balance;
 - Δ(t) < 0 → structural degradation and fragmentation.
 
----
+Operational interpretation:
 
-# 3. Stability Conditions
+Δ(t) describes formal structural balance.
 
-Local operational condition:
+Positive Δ(t) supports formal structural existence.
+
+Positive Δ(t) does not by itself prove real dynamic stability over time.
+
+# 3. Structural Existence Conditions
+
+Local structural existence condition:
 
 Δ(t) ≥ ε > 0
 
 Where:
 
-ε — minimum positive structural surplus required for retained operational continuity.
+ε — minimum positive structural surplus required for retained formal structural existence.
 
-Integral operational condition:
+Integral structural existence condition:
 
 ∫(S(t) − P(t) − D(t))dt > 0
 
 Operational interpretation:
 
-The system remains viable while accumulated structural synthesis exceeds structural dissipation pressure and irreversible structural losses over operational time.
+Positive accumulated structural balance supports formal structural existence over operational time.
 
----
+Real dynamic stability over time still requires:
 
-# 4. Structural Regeneration Link
+C(t) > P(t)
 
-Structural regeneration criterion:
+# 4. Dynamic Stability Criterion
+
+Dynamic stability criterion:
 
 C(t) > P(t)
 
 Where:
 
-- C(t) — structural regeneration, retained structural continuity, and restorative structural capacity;
-- P(t) — structural dissipation pressure.
+- C(t) — parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time;
+- P(t) — destabilizing structural pressure.
 
 Operational interpretation:
 
-The system remains viable while regenerative structural capacity exceeds destabilizing structural dissipation pressure over operational time.
+The system remains dynamically stable over time while endogenous structural coherence exceeds destabilizing structural pressure.
 
-Coherence, synchronization, resonance, and recursive continuity are mechanisms supporting C(t). They are not identical to structural integrity itself.
+Structural regeneration, synchronization, resonance, and recursive continuity may support C(t), but they are not identical to C(t).
 
----
+Synchronization must not be equated with coherence.
 
 # 5. Dynamic Operational Equilibrium
 
@@ -254,9 +266,11 @@ S(t) ≈ P(t) + D(t)
 
 Operational interpretation:
 
-The system maintains structure under continuous flow, but does not necessarily accumulate a positive structural surplus.
+The system maintains a structural balance under continuous flow, but does not necessarily accumulate positive structural surplus.
 
----
+This regime may preserve external form.
+
+It does not prove real dynamic stability if C(t) ≤ P(t).
 
 # 6. Quasi-Stationary Regime
 
@@ -270,7 +284,7 @@ Operational interpretation:
 
 External stability may coexist with internal restructuring, drift, dissipation, and hidden degradation.
 
----
+Observable stationarity is not equivalent to dynamic stability over time.
 
 # 7. System Nature
 
@@ -285,66 +299,62 @@ All real operational systems are treated as:
 
 Strictly linear dynamics is treated only as a local quasi-linear approximation of nonlinear operational dynamics.
 
----
-
 # 8. Self-Organization
 
 Self-organization becomes operationally accessible when:
 
 S(t) ≥ P(t) + D(t)
 
-and:
+and real dynamic stability over time requires:
 
 C(t) > P(t)
 
 Operational interpretation:
 
-Structural synthesis must compensate destabilizing dissipation pressure and irreversible losses, while structural regeneration must retain continuity over time.
-
----
+Structural synthesis must maintain positive structural balance, while endogenous structural coherence must exceed destabilizing pressure for real dynamic stability over time.
 
 # 9. Formation of Structure
 
 Form emerges through:
 
 - structural synthesis;
+- accumulation of positive structural work;
 - constraint-driven organization;
 - dissipation management;
-- regeneration of structural continuity;
+- endogenous structural coherence;
+- regeneration as one of the internal supporting processes;
 - stabilization of operational trajectories.
 
 Operational interpretation:
 
-Structure is not a static object.  
-Structure is a dynamically retained regime of organized continuity.
+Structure is not a static object.
 
----
+Structure is a dynamically retained regime of organized continuity.
 
 # 10. Evolution
 
 Evolution of the system is driven by:
 
+- accumulation of positive structural work;
 - reduction of irreversible losses;
-- increase of structural regeneration;
-- stabilization of retained continuity;
-- control of destabilizing dissipation pressure;
+- increase of endogenous structural coherence;
+- stabilization of structural integrity;
+- control of destabilizing pressure;
 - adaptive restructuring under constraints.
 
 Operationally:
 
-dX/dt depends on the balance between synthesis, dissipation pressure, irreversible losses, and regenerative structural capacity.
-
----
+dX/dt depends on the balance between structural synthesis, destabilizing pressure, irreversible losses, and endogenous structural coherence.
 
 # 11. Human System
 
 Let R(t) represent regenerative recovery resources.
 
-Stability requires:
+Operational continuity may require:
 
 R(t) ≥ R_crit
 
-and:
+and real dynamic stability still requires:
 
 C(t) > P(t)
 
@@ -354,33 +364,35 @@ Where:
 
 Operational interpretation:
 
-Human stability requires recovery, meaning, coherence mechanisms, and structural regeneration to exceed destabilizing pressure and irreversible exhaustion.
+Human stability requires recovery, meaning, coherence mechanisms, and structural regeneration to support endogenous structural coherence.
 
----
+However, regenerative recovery does not replace C(t).
+
+Real dynamic stability over time requires C(t) > P(t).
 
 # 12. Creativity
 
 Creativity becomes operationally accessible when:
 
 - S(t) is sufficient;
+- accumulated positive structural work remains available;
 - P(t) remains bounded;
 - D(t) remains controlled;
-- C(t) preserves regenerative continuity.
+- C(t) preserves endogenous structural coherence.
 
 Operational interpretation:
 
-Creativity is not random output.  
-It emerges when structural synthesis and regenerative continuity remain accessible under bounded dissipation pressure.
+Creativity is not random output.
 
----
+It emerges when structural synthesis and endogenous structural coherence remain accessible under bounded destabilizing pressure.
 
 # 13. Final Condition
 
-Endogenous dynamic stability is achieved when:
+Formal structural existence is supported when:
 
 ∫(S(t) − P(t) − D(t))dt > 0
 
-and:
+Real dynamic stability over time requires:
 
 C(t) > P(t)
 
@@ -388,9 +400,11 @@ over operational time.
 
 Operational interpretation:
 
-A system remains viable while structural synthesis and regenerative continuity exceed destabilizing structural dissipation pressure and irreversible structural losses.
+A system preserves formal structural existence while accumulated structural balance remains positive.
 
----
+A system preserves real dynamic stability over time only while endogenous structural coherence exceeds destabilizing structural pressure.
+
+Structural regeneration is one of the internal processes that may support C(t), but it is not identical to C(t).
 
 # Status
 
