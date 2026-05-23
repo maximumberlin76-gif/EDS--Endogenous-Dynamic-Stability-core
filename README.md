@@ -112,7 +112,15 @@ Expanded definition:
 
 C(t) describes the measure of coherence of internal processes of structural self-organization, on which structural integrity and dynamic stability of the system over time depend.
 
+Structural regeneration is a continuous endogenous process of restoring and maintaining structural integrity and coherence over time.
+
+If endogenous processes become decoherent in phase, amplitude, accumulation rate, connection quality, or functional contribution, the structure loses the capacity to regenerate structural integrity faster than dissipation destroys it.
+
+Therefore, a decrease of C(t) means a decrease of general endogenous structural coherence, in which dissipative pressure begins to exceed the structure’s capacity for self-regeneration over time.
+
 If C(t) exceeds P(t), the system is capable of retaining structural integrity and dynamic stability over time.
+
+If C(t) does not exceed P(t), the system may still exist externally, but its internal dynamic stability over time is already being disrupted.
 
 If C(t) does not exceed P(t), the system may still exist externally, but its internal dynamic stability over time is already being disrupted.
 
