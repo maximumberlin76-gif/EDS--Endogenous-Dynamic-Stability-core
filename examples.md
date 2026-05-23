@@ -4,7 +4,9 @@
 
 ## Mapping
 
-- S(t) — structural synthesis: the process of formation and maintenance of structural integrity and self-organization through infrastructure development, knowledge accumulation, industrial growth, and human capital formation;
+- S(t) — instantaneous intensity of synthesis of positive structural work through infrastructure development, knowledge accumulation, industrial growth, and human capital formation;
+
+- W_S(T) — accumulated positive structural work over an operational time interval, produced through sustained infrastructure, knowledge, industrial, and human-capital development;
 
 - P(t) — destabilizing structural pressure: destabilizing extraction, debt pressure, fragmentation of productive structure, speculative overload;
 
@@ -18,7 +20,7 @@ If:
 
 `S(t) > P(t) + D(t)`
 
-→ positive structural formation balance emerges, and formal structural existence remains accessible.
+→ positive instantaneous structural balance emerges, and formal structural existence remains accessible.
 
 If:
 
@@ -34,6 +36,14 @@ If:
 
 ## Stability Condition
 
+Formal structural existence is described by:
+
+`Δ(t) = S(t) − P(t) − D(t)`
+
+Accumulated positive structural work over an operational interval is described by:
+
+`W_S(T) = ∫[t₀ → t₁] S(t) dt`
+
 Real dynamic stability requires:
 
 `C(t) > P(t)`
@@ -48,7 +58,9 @@ Only sufficient endogenous structural coherence preserves structural integrity a
 
 ## Mapping
 
-- S(t) — structural synthesis: the process of formation and maintenance of useful operational structure through productive problem-solving, adaptive optimization, operational assistance, and constructive information processing;
+- S(t) — instantaneous intensity of synthesis of positive structural work through productive problem-solving, adaptive optimization, operational assistance, and constructive information processing;
+
+- W_S(T) — accumulated positive structural work over an operational time interval, produced through retained useful problem-solving, adaptive optimization, and coherent operational learning;
 
 - P(t) — destabilizing structural pressure: infrastructure overload, adaptation burden, destabilizing complexity growth, recursive operational stress;
 
@@ -84,7 +96,9 @@ Otherwise:
 
 ## Mapping
 
-- S(t) — structural synthesis: the process of formation and maintenance of structural integrity and self-organization through recovery, adaptive growth, meaning formation, and retained cognitive synthesis;
+- S(t) — instantaneous intensity of synthesis of positive structural work through recovery, adaptive growth, meaning formation, and retained cognitive synthesis;
+
+- W_S(T) — accumulated positive structural work over an operational time interval, produced through sustained recovery, meaning formation, adaptive learning, and retained cognitive synthesis;
 
 - P(t) — destabilizing structural pressure: stress, destabilizing obligations, cognitive overload, operational fragmentation pressure;
 
@@ -130,7 +144,9 @@ Productivity without endogenous structural coherence leads to structural instabi
 
 ## Mapping
 
-- S(t) — structural synthesis: the process of formation and maintenance of structural integrity and self-organization through biosynthesis and regenerative structural formation;
+- S(t) — instantaneous intensity of synthesis of positive structural work through biosynthesis, cellular maintenance, repair, and regenerative structural formation;
+
+- W_S(T) — accumulated positive structural work over an operational time interval, produced through sustained biosynthesis, repair, adaptation, and regenerative maintenance;
 
 - P(t) — destabilizing structural pressure: environmental stress, destabilizing pressure, structural dissipation pressure;
 
@@ -168,7 +184,9 @@ If:
 
 ## Mapping
 
-- S(t) — structural synthesis: the process of formation and maintenance of an organized operational regime through population inversion formation and retained organized energy structure;
+- S(t) — instantaneous intensity of synthesis of positive structural work through population inversion formation and maintenance of an organized operational regime;
+
+- W_S(T) — accumulated positive structural work over an operational time interval, produced through sustained population inversion and retained organized energy structure;
 
 - P(t) — destabilizing perturbations and dissipation pressure;
 
@@ -200,9 +218,13 @@ Across all examined systems:
 
 `Δ(t) = S(t) − P(t) − D(t)`
 
-describes formal structural existence through the balance of structural synthesis, destabilizing pressure, and irreversible losses.
+describes formal structural existence through the instantaneous balance of synthesis of positive structural work, destabilizing pressure, and irreversible losses.
 
-But positive `Δ(t)` alone does not guarantee real dynamic stability over time.
+Accumulated positive structural work over an operational time interval is described by:
+
+`W_S(T) = ∫[t₀ → t₁] S(t) dt`
+
+But positive `Δ(t)` or positive accumulated structural balance alone does not guarantee real dynamic stability over time.
 
 Real dynamic stability requires:
 
@@ -218,4 +240,4 @@ formal structural existence is not equal to dynamic stability and structural int
 
 This suggests a general operational principle for open nonlinear dynamical systems:
 
-a structure may exist through positive formation balance, but it remains dynamically stable over time only while endogenous structural coherence exceeds destabilizing structural pressure.
+a structure may exist through positive instantaneous structural balance and accumulated positive structural work, but it remains dynamically stable over time only while endogenous structural coherence exceeds destabilizing structural pressure.
