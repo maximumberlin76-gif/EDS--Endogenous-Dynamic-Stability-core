@@ -1,42 +1,176 @@
-# Theorem of Endogenous Dynamic Stability
+# EDS — Theorem of Endogenous Dynamic Stability
 
 ## Dynamic Stability and Structural Integrity Over Time in Open Nonlinear Dynamical Systems
 
 ## Abstract
 
-The theorem of endogenous dynamic stability defines a criterion for the dynamic stability of a system, structure, or form over time within the class of open nonlinear dynamical systems.
+EDS — the theorem of endogenous dynamic stability — defines a criterion for real dynamic stability of a system, structure, or form over time within the class of open nonlinear dynamical systems.
 
-Dynamic stability over time is determined not by static equilibrium and not by external support, but by the degree of coherence of endogenous, that is internal, processes of self-organization of the system, structure, or form.
+Dynamic stability over time is determined not by static equilibrium and not by external support alone, but by the degree of coherence of endogenous, that is internal, processes of self-organization of the system, structure, or form.
 
-The central EDS criterion:
+The central EDS criterion is:
 
 C(t) > P(t)
 
 where:
 
-C(t) — parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
+C(t) — parameter of general endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
 
 P(t) — destabilizing pressure.
 
-Formal structural existence is described by the balance:
+Formal structural existence is described by the instantaneous structural balance:
 
 Δ(t) = S(t) − P(t) − D(t)
 
 where:
 
-S(t) — structural synthesis: the process of formation and maintenance of structural integrity and self-organization.
+S(t) — instantaneous intensity of synthesis of positive structural work at time t.
 
-Positive Δ(t) shows that the structure may still exist as an organized form.
+Accumulated positive structural work over an operational time interval is given by the integral:
+
+W_S(T) = ∫[t₀ → t₁] S(t) dt
+
+Positive Δ(t) shows that the structure may continue to exist as an organized form.
 
 But positive Δ(t) does not prove real dynamic stability if C(t) no longer exceeds P(t).
 
-## Main Statement of the Theorem
+## Definitions and Notation
 
-The theorem of endogenous dynamic stability states:
+### Operational Time — t
 
-dynamic stability of a system, structure, or form over time is determined not by static equilibrium and not by external support, but by the degree of coherence of endogenous, that is internal, processes of self-organization of the system, structure, or form.
+t — operational time variable.
 
-It is precisely the degree of coherence of internal processes of self-organization that determines:
+t defines the temporal evolution of structural dynamics, endogenous structural coherence, self-organization, dissipation, parameter drift, and dynamic stability over time.
+
+### Operational Time Interval — T
+
+T — finite operational time interval.
+
+T = t₁ − t₀
+
+where:
+
+- t₀ — initial moment of operational time;
+- t₁ — final moment of operational time.
+
+### System State — X(t)
+
+X(t) — operational state of the system at time t.
+
+X(t) describes the measurable dynamic configuration of the system.
+
+X(t) ∈ ℝⁿ
+
+### Synthesis of Positive Structural Work — S(t)
+
+S(t) — instantaneous intensity of synthesis of positive structural work at time t.
+
+S(t) influences the formation, maintenance, and reinforcement of structural integrity, self-organization, and general endogenous structural coherence of the system over time.
+
+Constraint:
+
+S(t) ≥ 0
+
+### Accumulated Positive Structural Work — W_S(T)
+
+W_S(T) — accumulated positive structural work over the operational time interval T.
+
+W_S(T) = ∫[t₀ → t₁] S(t) dt
+
+where:
+
+- W_S(T) — accumulated positive structural work over interval T;
+- S(t) — instantaneous intensity of synthesis of positive structural work;
+- t₀ — initial moment of operational time;
+- t₁ — final moment of operational time.
+
+### Destabilizing Pressure — P(t)
+
+P(t) — destabilizing pressure, load, extraction, fragmentation influence, or degradation pressure at time t.
+
+P(t) reduces structural integrity, increases fragmentation, and weakens dynamic stability over time.
+
+Constraint:
+
+P(t) ≥ 0
+
+### Irreversible Structural Losses — D(t)
+
+D(t) — irreversible structural losses, degradation, and entropic costs at time t.
+
+D(t) describes losses that cannot be fully restored by endogenous regeneration processes.
+
+Constraint:
+
+D(t) ≥ 0
+
+### Instantaneous Structural Balance — Δ(t)
+
+Δ(t) — instantaneous structural balance of the system at time t.
+
+Δ(t) = S(t) − P(t) − D(t)
+
+Interpretation:
+
+- Δ(t) > 0 → positive structural formation balance;
+- Δ(t) = 0 → quasi-stationary operational balance;
+- Δ(t) < 0 → structural degradation and fragmentation.
+
+Positive Δ(t) supports formal structural existence.
+
+But Δ(t) by itself does not prove real dynamic stability over time.
+
+### Accumulated Structural Balance
+
+Accumulated structural balance over operational interval T:
+
+∫[t₀ → t₁] Δ(t) dt = ∫[t₀ → t₁] [S(t) − P(t) − D(t)] dt
+
+Positive accumulated structural balance supports formal structural existence over the time interval.
+
+But it does not replace the criterion of real dynamic stability:
+
+C(t) > P(t)
+
+### Endogenous Structural Coherence — C(t)
+
+C(t) — parameter of general endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
+
+C(t) describes the measure of coherence of internal processes of structural self-organization, on which structural integrity and dynamic stability of the system over time depend.
+
+Structural regeneration is a continuous endogenous process of restoring and maintaining structural integrity and coherence over time.
+
+Regeneration supports C(t), but is not identical to C(t).
+
+If endogenous processes are decoherent in phase, amplitude, accumulation rate, connection quality, or functional contribution, the structure loses the capacity to regenerate structural integrity faster than dissipation destroys it.
+
+A decrease of C(t) means a decrease of general endogenous structural coherence, where destabilizing pressure begins to exceed the structure’s capacity for self-regeneration over time.
+
+Constraint:
+
+C(t) ≥ 0
+
+## System Class and Assumptions
+
+The theorem applies to the class of open nonlinear dynamical systems.
+
+A system is open if it exchanges energy, matter, information, or influences with its environment.
+
+A system is nonlinear if its dynamics include thresholds, feedback loops, delays, amplifications, parameter drift, regime transitions, or phase transitions.
+
+A system is dynamical if its state is determined not by static form, but by change over time.
+
+A structure is considered not as a fixed object, but as a process retained by internal dynamics.
+
+All parameters must be defined in measurable, operational, or system-relative terms within a concrete dynamic context.
+
+## Theorem Statement
+
+EDS — the theorem of endogenous dynamic stability — states:
+
+dynamic stability of a system, structure, or form over time is determined not by static equilibrium and not by external support alone, but by the degree of coherence of endogenous, that is internal, processes of self-organization of the system, structure, or form.
+
+It is precisely the degree of coherence of endogenous processes of self-organization that determines:
 
 - structural integrity;
 - dynamic stability over time;
@@ -44,41 +178,39 @@ It is precisely the degree of coherence of internal processes of self-organizati
 - capacity to retain the regime of self-organization;
 - quality of recursive evolution of the structure over time.
 
-Formal existence of a structure is not equal to its dynamic stability and structural integrity over time.
+## Criterion of Real Dynamic Stability
 
-A structure may continue to exist externally within a given time interval, but only analysis of its endogenous dynamic processes shows in which phase its internal structural processes are and what the degree of its real dynamic stability over time is.
+Real dynamic stability over time is described by the criterion:
 
-## Class of Systems
+C(t) > P(t)
 
-The theorem applies to the class of open nonlinear dynamical systems.
+where:
 
-An open system exchanges energy, matter, information, or influences with its environment.
+C(t) — parameter of general endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
 
-A nonlinear system contains thresholds, feedback loops, delays, amplifications, parameter drift, and phase transitions.
+P(t) — destabilizing pressure.
 
-A dynamical system is defined not by a static state, but by change over time.
+Operational interpretation:
 
-Therefore, a structure is considered not as a fixed object, but as a process.
+the system preserves real dynamic stability over time while general endogenous structural coherence exceeds destabilizing pressure.
 
-The main question of the theorem is:
+If C(t) > P(t), the system is capable of retaining structural integrity and dynamic stability over time.
 
-not how the structure appears externally,
+If C(t) ≤ P(t), the system may still exist externally, but its internal dynamic stability over time is already disrupted.
 
-but how coherent its internal processes of self-organization are and in which phase its endogenous dynamics is.
+## Structural Balance
 
-## Formal Existence of a Structure
-
-Formal existence of a structure is described by the balance:
+Formal structural existence is described by the instantaneous structural balance:
 
 Δ(t) = S(t) − P(t) − D(t)
 
-Where:
+where:
 
-- Δ(t) — current structural balance of the system.
-- S(t) — structural synthesis: the process of formation and maintenance of structural integrity and self-organization.
-- P(t) — destabilizing pressure, load, extraction, fragmentation influence.
-- D(t) — irreversible losses, degradation, entropic costs.
-- t — operational time.
+S(t) — instantaneous intensity of synthesis of positive structural work;
+
+P(t) — destabilizing pressure;
+
+D(t) — irreversible structural losses.
 
 If:
 
@@ -90,70 +222,21 @@ But this condition shows only formal structural existence.
 
 It does not prove real dynamic stability of the structure over time.
 
-A structure may preserve external form, while already losing endogenous structural coherence, regenerative capacity, and structural integrity.
-
-## Dynamic Stability Criterion
-
-Real dynamic stability is described by the criterion:
-
-C(t) > P(t)
-
-Where:
-
-C(t) — parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
-
-P(t) — destabilizing pressure, load, fragmentation or degradation influence.
-
-Short definition:
-
-C(t) — parameter of endogenous structural coherence.
-
-Expanded definition:
-
-C(t) describes the measure of coherence of internal processes of structural self-organization, on which structural integrity and dynamic stability of the system over time depend.
-
-Structural regeneration is a continuous endogenous process of restoring and maintaining structural integrity and coherence over time.
-
-If endogenous processes become decoherent in phase, amplitude, accumulation rate, connection quality, or functional contribution, the structure loses the capacity to regenerate structural integrity faster than dissipation destroys it.
-
-Therefore, a decrease of C(t) means a decrease of general endogenous structural coherence, in which dissipative pressure begins to exceed the structure’s capacity for self-regeneration over time.
-
-If C(t) exceeds P(t), the system is capable of retaining structural integrity and dynamic stability over time.
-
-If C(t) does not exceed P(t), the system may still exist externally, but its internal dynamic stability over time is already being disrupted.
-
-If C(t) does not exceed P(t), the system may still exist externally, but its internal dynamic stability over time is already being disrupted.
-
-## Formal Existence and Real Stability
-
-Formal existence of a structure is not equal to its dynamic stability and structural integrity over time.
-
-External form may appear stable even when internal endogenous dynamics has already entered a phase of decoherence.
-
-Therefore, real stability is determined not by external appearance, but by the state of internal processes of self-organization.
-
-Form is an observable slice.
-
-Endogenous dynamics shows the phase of the process.
-
-Parameter drift shows the direction of the next possible transition.
-
-If only external form is analyzed, temporary preservation of structure may be mistaken for real stability.
-
 ## Difference Between Δ(t) and C(t)
 
 Δ(t) > 0 means:
 
 - the structure still exists;
-- external organization is still maintained;
-- form may still be preserved.
+- positive formation balance is retained;
+- external form may still be held;
+- formal structural existence continues.
 
 C(t) > P(t) means:
 
-- the structure preserves endogenous structural coherence;
+- the structure preserves general endogenous structural coherence;
 - the structure preserves structural integrity;
-- internal processes of self-organization remain coherent;
-- destabilizing pressure does not exceed the internal stability and regenerative capacity of the structure over time;
+- endogenous processes of self-organization remain coherent;
+- the structure’s capacity for self-regeneration over time exceeds destabilizing pressure;
 - the system remains dynamically stable over time.
 
 A possible situation:
@@ -162,231 +245,136 @@ A possible situation:
 
 This means:
 
-the structure still exists externally, but its internal dynamic stability over time is already disrupted.
+the structure still exists externally, but its real dynamic stability over time is already disrupted.
 
-This regime is important for diagnostics because external form may hide internal degradation.
+Formal existence of a structure is not equal to its dynamic stability and structural integrity over time.
 
-## Coherence, Agreement, and Synchronization
+## Mechanism
 
-In the theorem, coherence and synchronization are not the same.
+S(t) defines the instantaneous intensity of synthesis of positive structural work.
+
+Accumulated positive structural work over an operational time interval is given by:
+
+W_S(T) = ∫[t₀ → t₁] S(t) dt
+
+Positive structural work supports structural integrity, self-organization, and endogenous structural coherence.
+
+Regeneration is a continuous endogenous process of restoring and maintaining structural integrity and coherence.
+
+Regeneration supports C(t), but it is not C(t).
+
+C(t) expresses the general level of endogenous structural coherence.
+
+If endogenous processes are decoherent, the structure’s capacity for self-regeneration decreases.
+
+If dissipation exceeds the structure’s capacity for regeneration over time, C(t) decreases.
+
+If C(t) falls to the level C(t) ≤ P(t), the system loses real dynamic stability over time.
+
+Root chain:
+
+decoherence of endogenous processes → reduction of regenerative capacity → dissipation exceeds regeneration → decrease of C(t) → disruption of dynamic stability over time.
+
+## Coherence and Synchronization
+
+Coherence and synchronization are not identical.
 
 Synchronization means coincidence of processes in time, phase, or rhythm.
 
-But synchronous work does not yet mean coherent work.
+Synchronous work does not mean coherent work.
 
 Synchronization of internal processes is not identical to their coherence: processes may coincide in time or phase, but differ in amplitude, direction of effort, function, and contribution to the structural integrity of the whole system.
 
-Coherence in EDS means the measure of coherence of internal processes of structural self-organization, including, but not limited to, simple phase synchronization.
+C(t) describes not simple synchrony, but general endogenous structural coherence, on which structural integrity and dynamic stability over time depend.
 
 Synchronization may be a partial mechanism or indicator.
 
-But it is not equal to C(t).
-
-C(t) describes not simple synchrony, but endogenous structural coherence, on which structural integrity and dynamic stability over time depend.
-
-## Synthesis, Exchange, and Accumulation
-
-The theorem distinguishes synthesis, exchange, and accumulation.
-
-Exchange is redistribution of already existing resources, states, or influences.
-
-Exchange itself is not synthesis.
-
-Synthesis is the formation of a new organized structure or an increase in the level of structural organization.
-
-Synthesis requires coherence of internal processes of self-organization.
-
-Without this coherence, a new structure may be formed, but not retained.
-
-Accumulation is the retention of consequences over time.
-
-Accumulation may be coherent or decoherent.
-
-If accumulation is coherent with structural synthesis, it may strengthen stability.
-
-If accumulation is decoherent with structural synthesis, it increases load, losses, parameter drift, and degradation of C(t).
-
-## Decoherent Accumulation and Decoherent Synthesis
-
-Accumulation is not automatically a positive process.
-
-A system may accumulate:
-
-- load;
-- losses;
-- fragmentation;
-- decoherence of subsystems;
-- latent degradation;
-- control errors;
-- entropic drift;
-- unstable configurations.
-
-Such accumulation is decoherent accumulation.
-
-It does not lead to stability, but accelerates degradation drift of parameters.
-
-Decoherent synthesis is also possible.
-
-This is a situation in which a new structure is formed, but is not coherently included in the internal dynamics of the system.
-
-As a result, not a stable structure emerges, but an unstable formation that may intensify fragmentation.
-
-Synthesis becomes stable only when the new structure is included in the coherent endogenous dynamics of the system.
-
-## Parameter Drift
-
-In open nonlinear dynamical systems, parameters are not fixed.
-
-They drift over time.
-
-Parameter drift may increase due to:
-
-- decline of endogenous structural coherence;
-- growth of load;
-- accumulation of losses;
-- decoherence of subsystems;
-- fragmentation;
-- degradation of regenerative capacity;
-- irreversible structural changes.
-
-If C(t) decreases, the system holds its parameters within the admissible window less effectively.
-
-This may launch a recursive degradation cycle:
-
-decline of C(t) → intensification of drift → growth of destabilization → further decline of C(t)
-
-Positive stability requires the opposite:
-
-C(t) must be high enough to constrain destabilizing parameter drift.
-
-In this sense, C(t) is an internal parameter of retention of the dynamic regime.
-
-## Recursive Evolution of the Structure
-
-Endogenous structural coherence determines not only current stability, but also the quality of the next cycle of development.
-
-Each next cycle inherits the qualitative characteristics of the previous regime.
-
-If internal processes of self-organization are coherent, the next cycle inherits stability, integrity, and capacity for complication.
-
-If internal processes are decoherent, the next cycle inherits degradation, fragmentation, and accelerated parameter drift.
-
-Therefore, C(t) is connected not only with the current state of the structure, but also with its recursive evolution over time.
+But synchronization is not equal to C(t).
 
 ## System Regimes
 
-First regime: dynamic stability.
+### Dynamic Stability Regime
 
 Δ(t) > 0 and C(t) > P(t)
 
-The structure exists and preserves internal dynamic stability over time.
+The structure exists and preserves real dynamic stability over time.
 
-Second regime: external existence with internal degradation.
+### External Existence with Internal Degradation
 
-Δ(t) > 0, but C(t) ≤ P(t)
+Δ(t) > 0 and C(t) ≤ P(t)
 
-The structure still exists externally, but its endogenous structural coherence is already disrupted.
+The structure still exists externally, but its general endogenous structural coherence is already disrupted.
 
-Third regime: criticality.
+### Critical Regime
 
 C(t) ≈ P(t)
 
-The system is located at the boundary of dynamic retention.
+The system is at the boundary of dynamic retention.
 
-Small influences may cause disproportionate consequences.
+Small influences may cause disproportionate structural consequences.
 
-Fourth regime: degradation.
+### Degradation Regime
 
 Δ(t) < 0 and C(t) < P(t)
 
-The system loses structural balance and endogenous structural coherence.
+The system loses structural balance and general endogenous structural coherence.
 
-Fragmentation, drift, and collapse become dominant.
+Fragmentation, parameter drift, and collapse become dominant.
+
+## Consequences
+
+1. Formal existence of a structure does not prove its dynamic stability over time.
+
+2. External form may be preserved while internal endogenous dynamics has already entered a phase of decoherence.
+
+3. Positive Δ(t) supports formal structural existence, but does not replace C(t) > P(t).
+
+4. Real dynamic stability requires general endogenous structural coherence to exceed destabilizing pressure.
+
+5. Regeneration is a continuous endogenous process supporting C(t), but not identical to C(t).
+
+6. Decoherence of endogenous processes reduces the structure’s capacity for self-regeneration over time.
+
+7. If dissipation exceeds the regenerative capacity of the structure, C(t) decreases.
+
+8. Recursive evolution of the structure is determined by the quality of endogenous structural coherence over time.
 
 ## Related Extensions
 
-The scaling law and spatial extension are only mentioned as related directions of further formalization.
+The scaling law and spatial extension are mentioned only as related directions of further formalization.
 
 They are not included in the basic EDS criterion and are not developed within this README.
 
-## Purpose of the Theorem
+## Scope
+
+The theorem applies to open nonlinear dynamical systems, including:
+
+- physical systems;
+- biological systems;
+- cognitive and adaptive systems;
+- socio-economic structures;
+- technological systems;
+- distributed operational systems;
+- artificial intelligence systems;
+- self-organizing systems.
+
+## Purpose
 
 The theorem is intended for:
 
 - distinguishing formal existence from real dynamic stability over time;
 - determining the regime of a system;
 - early detection of internal degradation;
-- assessment of the level of endogenous structural coherence;
+- assessment of the level of general endogenous structural coherence;
 - tracking parameter drift;
 - distinguishing coherent and decoherent accumulation;
-- distinguishing synthesis and exchange;
+- distinguishing synthesis, exchange, and accumulation;
 - assessing the capacity of a system to retain structural integrity over time.
 
 Minimal operational rule:
 
 do not predict an isolated outcome, but track the regime of the system.
 
-The theorem does not replace specific physical, biological, technical, or social models.
-
-It sets a general criterion for stability analysis within the class of open nonlinear dynamical systems.
-
-## Constraint
-
-All parameters must be defined in measurable, operational, or system-relative terms within a specific dynamic context.
-
-A parameter must not be declared universal without specifying:
-
-- class of system;
-- scale;
-- time horizon;
-- observable variables;
-- method of measurement;
-- dynamic context.
-
-The theorem works as a formal criterion inside the given class of systems:
-
-open nonlinear dynamical systems.
-
-Its criteria must be applied not as a slogan, but as an instrument of phase diagnostics of a specific system.
-
-## Core Summary
-
-The theorem of endogenous dynamic stability states:
-
-dynamic stability of a system, structure, or form over time is determined not by static equilibrium and not by external support, but by the degree of coherence of endogenous, that is internal, processes of self-organization of the system, structure, or form.
-
-Real dynamic stability of a system, structure, or form over time is achieved not by external support alone, but primarily by the degree of coherence of its endogenous processes of self-organization.
-
-Formal existence of a structure is not equal to its dynamic stability and structural integrity over time.
-
-The main EDS criterion:
-
-C(t) > P(t)
-
-where:
-
-C(t) — parameter of endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
-
-P(t) — destabilizing pressure.
-
-Structural existence is described by the balance:
-
-Δ(t) = S(t) − P(t) − D(t)
-
-where:
-
-S(t) — structural synthesis: the process of formation and maintenance of structural integrity and self-organization.
-
-But positive Δ(t) does not guarantee dynamic stability if C(t) no longer exceeds P(t).
-
-Final formulation:
-
-the structure exists through positive formation balance;
-
-the structure is dynamically stable through endogenous structural coherence of internal processes of self-organization;
-
-recursive evolution of the structure is determined by the quality of this coherence over time.
-
 ## Status
 
-CORE v1.3-draft
+CORE v1.4-draft
