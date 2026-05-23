@@ -521,4 +521,4 @@ Structural regeneration is one of the internal processes that may support C(t), 
 
 # Status
 
-Working Monograph v0.2 — semantic normalization initialized
+Working Monograph v0.2 
