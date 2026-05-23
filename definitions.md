@@ -23,26 +23,65 @@ Operationally:
 
 `X(t) ∈ ℝⁿ`
 
-# Structural Synthesis — S(t)
+# Operational Time Horizon — T
+
+`T`
+
+represents a finite operational time horizon.
+
+`T = t₁ − t₀`
+
+Where:
+
+- `t₀` — initial moment of operational time;
+- `t₁` — final moment of operational time.
+
+# Synthesis of Positive Structural Work — S(t)
 
 `S(t)`
 
-represents structural synthesis: the process of formation and maintenance of structural integrity and self-organization at time `t`.
+represents the instantaneous intensity of synthesis of positive structural work at time `t`.
+
+Operationally:
+
+- `S(t)` influences the formation, maintenance, and reinforcement of structural integrity, self-organization, and general endogenous structural coherence of the system over time.
 
 Examples:
 
-- energy retained in organized form;
-- constructive structural formation;
-- structural self-organization;
+- constructive structural growth;
+- adaptive restructuring;
 - knowledge accumulation;
-- infrastructure development;
-- operational restructuring.
+- operational organization;
+- formation of organized structure;
+- maintenance of structural integrity;
+- synthesis of positive structural work.
 
 Constraint:
 
 `S(t) ≥ 0`
 
-# Structural Dissipation Pressure — P(t)
+# Accumulated Positive Structural Work — W_S(T)
+
+`W_S(T)`
+
+represents accumulated positive structural work over the operational time horizon `T`.
+
+Definition:
+
+`W_S(T) = ∫[t₀ → t₁] S(t) dt`
+
+Where:
+
+- `W_S(T)` — accumulated positive structural work over interval `T`;
+- `S(t)` — instantaneous intensity of synthesis of positive structural work;
+- `t₀` — initial moment of operational time;
+- `t₁` — final moment of operational time.
+
+Operationally:
+
+- `W_S(T)` describes the accumulated result of positive structural work synthesized over operational time.
+
+# Destabilizing Structural Pressure — P(t)
 
 `P(t)`
 
@@ -87,14 +126,20 @@ Constraint:
 
 `D(t) ≥ 0`
 
-# Operational Structural Balance
+# Instantaneous Structural Balance — Δ(t)
+
+`Δ(t)`
+
+represents the instantaneous structural balance of the system at time `t`.
+
+Definition:
 
 `Δ(t) = S(t) − P(t) − D(t)`
 
 Where:
 
-- `Δ(t)` — operational structural balance at time `t`;
-- `S(t)` — structural synthesis at time `t`;
+- `Δ(t)` — instantaneous structural balance at time `t`;
+- `S(t)` — instantaneous intensity of synthesis of positive structural work at time `t`;
 - `P(t)` — destabilizing structural pressure at time `t`;
 - `D(t)` — irreversible structural losses at time `t`;
 - `t` — operational time variable.
@@ -105,25 +150,44 @@ Interpretation:
 - `Δ(t) = 0` → quasi-stationary operational balance;
 - `Δ(t) < 0` → structural degradation and fragmentation.
 
-Positive `Δ(t)` indicates formal structural existence.
+Positive `Δ(t)` supports formal structural existence.
 
 It does not by itself prove real dynamic stability over time.
+
+# Accumulated Structural Balance
+
+Accumulated structural balance over the operational time horizon `T` is defined as:
+
+`∫[t₀ → t₁] Δ(t) dt = ∫[t₀ → t₁] [S(t) − P(t) − D(t)] dt`
+
+Operationally:
+
+- positive accumulated structural balance supports formal structural existence over the evaluated operational time horizon;
+- it does not by itself guarantee real dynamic stability if `C(t) ≤ P(t)`.
 
 # Endogenous Structural Coherence — C(t)
 
 `C(t)`
 
-represents the parameter of endogenous structural coherence that determines the level of structural integrity and dynamic stability over time.
+represents the parameter of general endogenous structural coherence determining the level of structural integrity and dynamic stability over time.
 
 Operationally:
 
 - `C(t)` describes the measure of coherence of internal processes of structural self-organization, on which structural integrity and dynamic stability of the system over time depend.
 
+Structural regeneration is a continuous endogenous process of restoring and maintaining structural integrity and coherence over time.
+
+Regeneration supports `C(t)`, but is not identical to `C(t)`.
+
+If endogenous processes are decoherent in phase, amplitude, accumulation rate, connection quality, or functional contribution, the structure loses the capacity to regenerate structural integrity faster than dissipation destroys it.
+
+A decrease of `C(t)` means a decrease of general endogenous structural coherence, where destabilizing pressure begins to exceed the structure’s capacity for self-regeneration over time.
+
 Examples:
 
 - coherent internal self-organization;
 - retained structural integrity;
-- regenerative capacity;
+- regenerative capacity as a supporting process;
 - coherent subsystem contribution to the whole system;
 - resistance to fragmentation;
 - retention of dynamic stability over time.
@@ -148,17 +212,17 @@ Synchronization of internal processes is not identical to their coherence: proce
 
 Where:
 
-- `C(t)` — parameter of endogenous structural coherence that determines the level of structural integrity and dynamic stability over time;
+- `C(t)` — parameter of general endogenous structural coherence determining the level of structural integrity and dynamic stability over time;
 - `P(t)` — destabilizing structural pressure;
 - `t` — operational time variable.
 
 Operational relation:
 
-- endogenous structural coherence exceeds destabilizing structural pressure over operational time.
+- general endogenous structural coherence exceeds destabilizing structural pressure over operational time.
 
 Operational interpretation:
 
-- the system remains dynamically stable over time while endogenous structural coherence exceeds destabilizing structural pressure.
+- the system remains dynamically stable over time while general endogenous structural coherence exceeds destabilizing structural pressure.
 
 # Time Horizon
 
@@ -166,12 +230,12 @@ System behavior must be evaluated over operational time intervals.
 
 Operational integral structural balance:
 
-`∫(S(t) − P(t) − D(t))dt > 0`
+`∫[t₀ → t₁] (S(t) − P(t) − D(t))dt > 0`
 
 Where:
 
 - `∫` — accumulation over operational time;
-- `S(t) − P(t) − D(t)` — instantaneous operational structural balance;
+- `S(t) − P(t) − D(t)` — instantaneous structural balance;
 - `dt` — infinitesimal operational time interval;
 - `t` — operational time variable.
 
@@ -184,8 +248,10 @@ Interpretation:
 
 Within the framework:
 
-- `S(t)` → structural synthesis: formation and maintenance of structural integrity and self-organization;
-- `C(t)` → endogenous structural coherence determining structural integrity and dynamic stability over time;
+- `S(t)` → instantaneous intensity of synthesis of positive structural work;
+- `W_S(T)` → accumulated positive structural work over operational time horizon `T`;
+- `Δ(t)` → instantaneous structural balance supporting formal structural existence;
+- `C(t)` → general endogenous structural coherence determining structural integrity and dynamic stability over time;
 - `P(t)` → destabilizing structural pressure;
 - `D(t)` → irreversible structural losses.
 
@@ -196,6 +262,10 @@ Formal structural existence is described by:
 Real dynamic stability over time is described by:
 
 `C(t) > P(t)`
+
+Root mechanism:
+
+decoherence of endogenous processes → reduction of regenerative capacity → dissipation exceeds regeneration → decrease of `C(t)` → disruption of dynamic stability over time.
 
 # Constraint
 
