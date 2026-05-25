@@ -339,11 +339,84 @@ Fragmentation, parameter drift, and collapse become dominant.
 
 8. Recursive evolution of the structure is determined by the quality of endogenous structural coherence over time.
 
-## Related Extensions
+## EDC Scaling Extension
 
-The scaling law and spatial extension are mentioned only as related directions of further formalization.
+The EDS criterion defines real dynamic stability over time:
 
-They are not included in the basic EDS criterion and are not developed within this README.
+C(t) > P(t)
+
+When the system approaches the stability boundary:
+
+C(t) ≈ P(t)
+
+the system enters the Endogenous Dynamic Criticality regime.
+
+Near this boundary, the reduced critical dynamics may be represented as:
+
+dC/dt = v_eff t C − C³
+
+where:
+
+C(t) — endogenous structural coherence variable in the reduced critical regime;
+
+v_eff — effective endogenous drift rate toward the critical regime;
+
+v_eff t C — drift-driven growth of endogenous structural coherence near the critical boundary;
+
+−C³ — nonlinear saturation term of endogenous structural coherence growth.
+
+The characteristic critical delay follows:
+
+t_delay ~ v_eff^(−1/3)
+
+This scaling law describes how available stabilization time compresses as endogenous drift accelerates.
+
+## Why the Scaling Is Cubic
+
+The exponent:
+
+−1/3
+
+is not introduced as an arbitrary scaling coefficient.
+
+It follows from the cubic nonlinear saturation term:
+
+−C³
+
+in the reduced critical form:
+
+dC/dt = v_eff t C − C³
+
+The cubic term is used because retained structural stability is not treated as a one-dimensional or purely quadratic correction.
+
+A retained structure must preserve organization as a volumetric dynamic condition.
+
+A quadratic correction would describe pairwise or surface-like limitation.
+
+The cubic term represents third-order saturation of the retained regime, where coherence growth is constrained by volumetric stabilization, internal compatibility, nonlinear self-interaction, and the three-dimensional structural character of retained organization.
+
+Therefore, the reduced critical form uses:
+
+−C³
+
+rather than:
+
+−C²
+
+As a result:
+
+t_delay ~ v_eff^(−1/3)
+
+follows from the cubic saturation structure of the reduced EDC regime.
+
+Operationally:
+
+- linear endogenous drift moves the system toward the critical boundary;
+- cubic saturation limits the growth of endogenous structural coherence;
+- retained three-dimensional structural organization requires third-order nonlinear stabilization;
+- faster endogenous drift compresses available stabilization time.
+
+Thus, the exponent −1/3 follows from the cubic nonlinear saturation term and is not an external assumption.
 
 ## Scope
 
