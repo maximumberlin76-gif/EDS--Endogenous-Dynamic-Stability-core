@@ -451,3 +451,9 @@ do not predict an isolated outcome, but track the regime of the system.
 ## Status
 
 CORE v1.4-draft
+
+## Author
+
+Maksym Marnov (Alchimist)  
+Independent Researcher · Philosophy & Systems Architecture  
+Berlin · 24.05.2026
