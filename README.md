@@ -2,6 +2,46 @@
 
 ## Dynamic Stability and Structural Integrity Over Time in Open Nonlinear Dynamical Systems
 
+## Overview
+
+This README presents the core formulation of the Endogenous Dynamic Stability theorem.
+
+The theorem defines real dynamic stability over time through the relation:
+
+C(t) > P(t)
+
+where endogenous structural coherence must remain stronger than destabilizing pressure.
+
+The framework distinguishes:
+
+- formal structural existence;
+- real dynamic stability;
+- structural balance;
+- endogenous structural coherence;
+- regenerative capacity;
+- critical boundary formation;
+- and scaling behavior near the EDC regime.
+
+The core distinction is:
+
+Δ(t) > 0
+
+shows that a structure may still formally exist.
+
+But real dynamic stability requires:
+
+C(t) > P(t)
+
+Therefore, the theorem does not evaluate a structure only by its external form.
+
+It evaluates whether the internal endogenous processes of self-organization remain coherent enough to preserve structural integrity over time.
+
+The EDC scaling extension is included as a boundary-layer continuation of EDS:
+
+C(t) ≈ P(t)
+
+At this boundary, critical drift, nonlinear saturation, cubic scaling, and transition delay become operationally relevant.
+
 ## Abstract
 
 EDS — the theorem of endogenous dynamic stability — defines a criterion for real dynamic stability of a system, structure, or form over time within the class of open nonlinear dynamical systems.
